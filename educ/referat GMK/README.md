@@ -7,7 +7,6 @@ bachelor-diploma
 Структура каталогов:
 ```
 .
-├── extra
 ├── images
 └── inc
 ```
