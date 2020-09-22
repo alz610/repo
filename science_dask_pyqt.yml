@@ -1,0 +1,30 @@
+name: science
+channels:
+  - defaults
+  - conda-forge
+  - pyplot
+dependencies:
+  - python=3
+  - matplotlib
+  - pyqt
+  #- bokeh
+  #- bokeh::jupyter_bokeh
+  - numpy
+  #- fenics
+  - jupyterlab
+  - nodejs>=10
+  - dask
+  - memory_profiler
+  - jupyterthemes
+  - ipywidgets
+  - ipympl
+  - jupyterlab_code_formatter
+  - black
+  - isort
+  - python-language-server
+  - ipysheet
+  - plotly
+  - jupyter-dash
+  - pip
+  - pip:
+    - jupyter-lsp
