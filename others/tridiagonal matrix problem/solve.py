@@ -25,7 +25,7 @@ def solve(n, a_, c_, b_, f_):
 !gcc solve.c
 
 # %% [markdown]
-# \begin{equation}
+# $$
 # \begin{pmatrix}
 # c & b &&& \\
 # a & c & b && \\
@@ -41,7 +41,7 @@ def solve(n, a_, c_, b_, f_):
 # \begin{pmatrix}
 # f \\ f \\ \vdots \\ \vdots \\ f
 # \end{pmatrix}
-# \end{equation}
+# $$
 #
 # $$(a, c, b, f) = (1, 3, 1, 1)$$
 
