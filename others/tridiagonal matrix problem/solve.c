@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
+#include <string.h>
 
 	/**
 	 * n - число уравнений (строк матрицы)
@@ -69,15 +70,17 @@ int main(int argc, char const *argv[])
 
     solveMatrix(n, a, c, b, f, x);
 
-    double elapsed = (double)(clock() - begin) / CLOCKS_PER_SEC;
-    printf("elapsed: %f s\n", elapsed);
 
-    // if ((argc > 6) && (*argv[6] == 'a'))
-    // {
-    //     for (size_t i = 0; i < n; i++)
-    //         printf("%f ", x[i]);
-    // }
-    
+    double elapsed = (double)(clock() - begin) / CLOCKS_PER_SEC;
+    printf("Elapsed: %f s\n", elapsed);
+
+
+    if ((argc > 6) && (!strcmp(argv[6], "show")))
+    {
+        printf("\n");
+        for (size_t i = 0; i < n; i++)
+            printf("%.8f ", x[i]);
+    }
 
 
     return 0;
