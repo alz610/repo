@@ -1,0 +1,16 @@
+name: jlab1
+channels:
+  - nodefaults
+  - conda-forge
+dependencies:
+  - python
+  - jupyterlab
+  - ipympl
+  - nodejs
+  - dask-labextension
+  - nb_conda_kernels
+  - jupyter-lsp
+  - python-language-server
+  #- pip
+  #- pip:
+    #- jupyter-lsp

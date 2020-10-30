@@ -1,0 +1,23 @@
+name: sci1
+channels:
+  - rapidsai
+  - conda-forge
+  - defaults
+  - nvidia
+dependencies:
+  - python
+  - ipykernel
+  - matplotlib
+  - pyqt
+  - numpy
+  - fenics
+  - dask
+  - python-graphviz
+  - ipywidgets
+  - nbformat
+  - ipympl
+  - dask-cuda
+  - cupy
+  - cudatoolkit=10.2
+  - jupyterthemes
+  - memory_profiler
