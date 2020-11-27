@@ -1,4 +1,4 @@
-name: jupyter
+name: jlab0
 channels:
   - nodefaults
   - conda-forge
@@ -16,6 +16,7 @@ dependencies:
   - jupyter-dash
   - jupyter_bokeh
   - nb_conda_kernels
-  - pip
-  - pip:
-    - jupyter-lsp
+  - jupyter-lsp
+  #- pip
+  #- pip:
+    #- jupyter-lsp

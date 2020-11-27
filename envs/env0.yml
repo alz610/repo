@@ -1,0 +1,15 @@
+name: env0
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python
+  - ipykernel
+  - matplotlib
+  - pyqt
+  - numpy
+  - ipywidgets
+  - ipympl
+  - jupyterthemes
+  - scipy
+  - sympy

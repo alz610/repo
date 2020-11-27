@@ -1,4 +1,4 @@
-name: science
+name: sci0
 channels:
   - rapidsai
   - conda-forge
@@ -20,6 +20,6 @@ dependencies:
   - ipympl
   - dask-cuda
   - cupy
-  - cudatoolkit=10.2
+  - cudatoolkit
   - jupyterthemes
   - memory_profiler
