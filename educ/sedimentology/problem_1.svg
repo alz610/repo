@@ -24,7 +24,7 @@
    inkscape:export-ydpi="400"><metadata
      id="metadata70"><rdf:RDF><cc:Work
          rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
-           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title /></cc:Work></rdf:RDF></metadata><defs
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata><defs
      id="defs68"><pattern
        inkscape:collect="always"
        xlink:href="#pattern4069"
@@ -1772,9 +1772,9 @@
      id="namedview66"
      showgrid="false"
      inkscape:snap-intersection-paths="true"
-     inkscape:zoom="1.4142136"
-     inkscape:cx="206.25491"
-     inkscape:cy="350.70483"
+     inkscape:zoom="11.313709"
+     inkscape:cx="466.87875"
+     inkscape:cy="266.23076"
      inkscape:window-x="0"
      inkscape:window-y="27"
      inkscape:window-maximized="1"
@@ -2083,7 +2083,7 @@
    transform="scale(1,-1)" /><rect
    style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.56700003;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
    id="rect4165-6-2"
-   width="6.478312"
+   width="9.7928743"
    height="29.386902"
    x="341.84659"
    y="-220.34341"
@@ -2094,13 +2094,6 @@
    height="29.386902"
    x="361.28149"
    y="-220.34341"
-   transform="scale(1,-1)" /><rect
-   style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.56700003;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-   id="rect4165-6-0"
-   width="3.2837107"
-   height="62.812523"
-   x="341.84659"
-   y="-190.95653"
    transform="scale(1,-1)" /><rect
    style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.56700003;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
    id="rect4172-2-9"
