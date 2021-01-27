@@ -76,7 +76,7 @@
         \end{beamercolorbox}%
         \begin{beamercolorbox}[wd=.6\paperwidth,ht=2ex,dp=1ex,center]{BlueOnWhite}
             \usebeamerfont{title in head/foot}
-%             \insertshorttitle % Не вставляем название презентации в нижний бар
+            % \insertshorttitle % Не вставляем название презентации в нижний бар
         \end{beamercolorbox}%
         \begin{beamercolorbox}[wd=.2\paperwidth,ht=2ex,dp=1ex,right]{BlueOnWhite}
             \usebeamerfont{date in head/foot}
@@ -87,30 +87,25 @@
 }
 
 \setbeamertemplate{title page}{
-
         \centering
-%         \bigskip
         \vspace{\baselineskip}
         \small\insertinstitute
 
-        %\vspace{2\baselineskip}
-        %\textcolor{Blue}{\normalsize\insertsubtitle}
+        \vspace{2\baselineskip}
+        \textcolor{Blue}{\normalsize\insertsubtitle}
 
-        %\vspace{\baselineskip}
-        \btVFill\btVFill
+        \vspace{\baselineskip}
         \textcolor{Blue}{\Large\inserttitle}
 
-        \btVFill
+        \vfill
         \begin{flushright}
             \small\insertauthor \\
         \end{flushright}
 
-        \btVFill
-%         \vspace{\baselineskip}
-
+        \vfill
         \centering
-        \small\insertdate
-%         \bigskip
         \vspace{\baselineskip}
+
+        \small\insertdate
 
 }
