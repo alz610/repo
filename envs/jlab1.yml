@@ -7,7 +7,7 @@ dependencies:
   - jupyterlab
   - ipympl
   - nodejs
-  - dask-labextension
+  #- dask-labextension
   - nb_conda_kernels
   #- jupyter-lsp
   #- python-language-server
