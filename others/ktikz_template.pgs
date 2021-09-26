@@ -1,0 +1,22 @@
+\documentclass{standalone}
+\usepackage{tikz}
+
+% \usetikzlibrary{backgrounds}
+% \definecolor{bgcolor}{HTML}{232629}
+% \definecolor{bgcolor}{HTML}{808080}
+% 
+% \usetikzlibrary{quotes,angles}
+% \usepackage{amsfonts}
+
+\begin{document}
+% \begin{tikzpicture}[
+%   show background rectangle, 
+%   background rectangle/.style={fill=bgcolor},
+%   color=white,
+%   help lines/.style={color=lightgray,line width=.2pt},
+%   scale=2
+% ]
+\begin{tikzpicture}
+<>
+\end{tikzpicture}
+\end{document}
