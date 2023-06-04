@@ -1,7 +1,7 @@
 all: предел_метода_прямоугольников.pdf
 
 предел_метода_прямоугольников.pdf: предел_метода_прямоугольников.md
-	pandoc --pdf-engine=xelatex --template=template.latex предел_метода_прямоугольников.md metadata.yaml -o предел_метода_прямоугольников.pdf                                           
+	pandoc --pdf-engine=lualatex --template=template.latex metadata.yaml предел_метода_прямоугольников.md -o предел_метода_прямоугольников.pdf                                          
 
 clean:
 	rm предел_метода_прямоугольников.pdf
